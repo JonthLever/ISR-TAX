@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Send and Receive Data</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
+</head>
+<body>
+    <div class="titulo">
+        <h1>CALCULO RETENCION ISR</h1>
+        
+    </div>
+    <div class="descrip">
+        <p>Ingresa en el cuadro el monto total de la factura, presiona el boton y se te devolverá el valor de la retencion a realizar</p>
+    </div>
+   <!--<div class="areatext">
+        <textarea></textarea>
+    </div>
+    <div class="container">
+        <button>Click Me</button>
+    </div>-->
+    <form id="dataForm">
+        <label for="name">Monto:</label>
+        <input type="text" id="name" name="name" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="response"></div>
+
+
+</body>
+</html>
