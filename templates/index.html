@@ -20,13 +20,16 @@
     <div class="container">
         <button>Click Me</button>
     </div>-->
-    <form id="dataForm">
-        <label for="name">Monto:</label>
-        <input type="text" id="name" name="name" required>
-        <button type="submit">Submit</button>
-    </form>
-
-    <div id="response"></div>
+    <div class="data">
+        <form action="/obtener" method="post">
+            <label>Monto:</label>
+            <input type="text" class="monto" name="mont" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>   
+    <div id="response" class="response">
+        <h1>RESULTADO: {{session['resultado']}}</h1>
+    </div>
 
 
 </body>
