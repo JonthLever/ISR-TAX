@@ -7,21 +7,21 @@ body {
 }
 
 .titulo{
-    height: 450px;
+    height: 320px;
     display: grid;
     font-family: Georgia, serif;
     font-size: 50px;
     position: relative;
     align-items:flex-end;
-    justify-content: center
-
+    justify-content: center;
+    margin-bottom: 0px;
 
 
 
 }
 .titulo h1{
     background-color: red;
-  
+    margin-bottom: 0px;
     /* Create the gradient. */
     background-image: linear-gradient(45deg, #16312ea5, #19bbd4);
     background-size: 100%;
@@ -36,10 +36,17 @@ body {
     font: italic 1.2em "Fira Sans", serif;
     font-size: 20px;
     position: relative;
-    
+    align-items:flex-start;
     justify-content: center
 }
-
+.response{
+    display: grid;
+    font-family: 'Courier New', monospace;
+    font-size: 35px;
+    position: relative;
+    align-items:flex-end;
+    justify-content: center;
+}
 
     
 
@@ -55,32 +62,28 @@ form {
   }
   
 form input {
-    width: 90%;
+    width: 50%;
     height: 30px;
     margin: 0.5rem;
+    font-family: 'Courier New', monospace;
   }
   
  form button {
+    font: italic 1.2em "Fira Sans", serif;
+    border-radius: 5px;
     padding: 0.5em 1em;
     border: none;
     background: rgb(100, 200, 255);
     cursor: pointer;
+    border-bottom: 10px;
   }
 
 
 
 form button:hover {
-    background-color:rgb(100, 200, 255) ;
+    background-color:rgb(0, 255, 200) ;
 }
 
 form button:active {
-    background-color:rgb(100, 200, 255);
-}
-.response{
-    display: grid;
-    font: italic 1.2em "Fira Sans", serif;
-    font-size: 20px;
-    position: relative;
-    
-    justify-content: center
+    background-color:rgb(254, 2, 216);
 }
