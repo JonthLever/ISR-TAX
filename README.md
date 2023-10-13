@@ -10,9 +10,7 @@ Gracias por acompañarme en este apasionante viaje. Si tienes alguna pregunta o 
 
 _**MODULOS TERMINADOS:**_
 
- ☑️ _27 jul 2023_ - Pagina para calculo Retencion ISR sobre facturas 
-![Screenshot from 2023-07-27 00-11-42](https://github.com/JonthLever/ISR-TAX/assets/121318635/c49cd248-b404-4ddb-bcb7-1b1302406ad9)
-Docs: app.py, index.hmtl(templates) y styles.css(static)
+ 
 
 _**EN PROGRESO:**_
 
@@ -35,9 +33,6 @@ Thank you for joining me on this exciting journey! If you have any questions or 
 
 _**COMPLETED MODULES:**_
 
-☑️ _27 jul 2023_ -  Page for calculating Income Tax Withholding on invoices (Local tax)
-![Screenshot from 2023-07-27 00-11-42](https://github.com/JonthLever/ISR-TAX/assets/121318635/c35b5134-817d-4b6a-8672-53ccdc924c87)
-Files: app.py, index.hmtl(templates) & styles.css(static)
 
 
 _**IN PROGRESS:**_
