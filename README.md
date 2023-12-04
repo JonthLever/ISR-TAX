@@ -1,7 +1,7 @@
 _**(Español)**_
 Hola a todos y todas.  
 Bienvenido(a)s a mi proyecto en el cual busco poco a poco ir implementando todos los modulos contables que se 
-pueden llegar a encontrar en un sistema contable estandar, pero busco implementarloS como una app web de python.
+pueden llegar a encontrar en un sistema contable estandar, pero busco implementarlos como una app web de python.
 Mi finalidad con este proyecto es poder irme facilitando cosas de mi trabajo actual (Auxiliar Contable) y al mismo 
 tiempo aprender y masterizar distintas herramientas y lenguajes de este campo que tanto me gusta que es la programación.
 Cualquier comentario o aporte que tengas estaré complacido de escucharlo. 
