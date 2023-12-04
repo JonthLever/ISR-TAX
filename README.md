@@ -15,6 +15,7 @@ _**MODULOS TERMINADOS:**_
 _**EN PROGRESO:**_
 
 ⏲️ _04 dic 2023_ - Pagina Principal
+
 ⏲️ _04 dic 2023_ - Ingresar Facturas (Proveedores)
 
 
@@ -40,4 +41,5 @@ _**COMPLETED MODULES:**_
 _**IN PROGRESS:**_
 
 ⏲️ _04 dec 2023_ - Home Page
+
 ⏲️ _04 dec 2023_ - Enter Bills
