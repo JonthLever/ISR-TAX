@@ -13,11 +13,11 @@ def enter_bills():
 @app.route('/submit_bill', methods=['POST'])
 def submit_bill():
     if request.method == 'POST':
-        customer = request.form['customer']
+        vendor = request.form['vendor']
         amount = request.form['amount']
         description = request.form['description']
         
-        print(f"Customer: {customer}, Amount: {amount}, Description: {description}")
+        print(f"Customer: {vendor}, Amount: {amount}, Description: {description}")
 
         return "Bill submitted successfully! Thank you."
 
