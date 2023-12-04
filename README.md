@@ -22,7 +22,8 @@ _**EN PROGRESO:**_
 ![twt2](https://github.com/JonthLever/ISR-TAX/assets/121318635/c85ed571-a606-4de9-bf02-1b11593595fb)
 
 
-
+>[!NOTE]
+>El area de CSS y algunas partes del HTML fueron implementadas usando ChatGPT, ya que mi finalidad con este proyecto es enfocarme en mi aprendizaje en Python y Flask
 /*****************************************************************************************************************************************/
 
 
@@ -50,3 +51,5 @@ _**IN PROGRESS:**_
 ⏲️ _04 dec 2023_ - Enter Bills
 ![twt2](https://github.com/JonthLever/ISR-TAX/assets/121318635/48cd35a9-cca8-46eb-ad08-c07fc802c33c)
 
+>[!NOTE]
+>Integrated ChatGPT for CSS styling and specific HTML elements, enabling a focused emphasis on advancing my Python and Flask expertise within this project.
