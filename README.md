@@ -24,6 +24,7 @@ _**EN PROGRESO:**_
 
 >[!NOTE]
 >El area de CSS y algunas partes del HTML fueron implementadas usando ChatGPT, ya que mi finalidad con este proyecto es enfocarme en mi aprendizaje en Python y Flask
+
 /*****************************************************************************************************************************************/
 
 
