@@ -15,8 +15,11 @@ _**MODULOS TERMINADOS:**_
 _**EN PROGRESO:**_
 
 ⏲️ _04 dic 2023_ - Pagina Principal
+![twt1](https://github.com/JonthLever/ISR-TAX/assets/121318635/3787339f-6626-40d3-bdbd-3decb779f53d)
+
 
 ⏲️ _04 dic 2023_ - Ingresar Facturas (Proveedores)
+![twt2](https://github.com/JonthLever/ISR-TAX/assets/121318635/c85ed571-a606-4de9-bf02-1b11593595fb)
 
 
 
@@ -41,5 +44,9 @@ _**COMPLETED MODULES:**_
 _**IN PROGRESS:**_
 
 ⏲️ _04 dec 2023_ - Home Page
+![twt1](https://github.com/JonthLever/ISR-TAX/assets/121318635/50cf56bb-eb91-448f-8eb8-b68443d3155d)
+
 
 ⏲️ _04 dec 2023_ - Enter Bills
+![twt2](https://github.com/JonthLever/ISR-TAX/assets/121318635/48cd35a9-cca8-46eb-ad08-c07fc802c33c)
+
