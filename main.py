@@ -24,7 +24,31 @@ def submit_bill():
         print(f"Customer: {vendor}, Amount: {amount}, Description: {description}")
 
         return "Bill submitted successfully! Thank you."
+    
+    
+@app.route('/submit_invoice', methods=['POST'])
+def submit_invoice():
+    if request.method == 'POST':
+        costumer = request.form['costumer']
+        #amount = request.form['amount']
+        #description = request.form['description']
+        
+        #print(f"Customer: {costumer}, Amount: {amount}, Description: {description}")
 
+        return "Invoice submitted successfully! Thank you."
+    
+@app.route('/enter_invoice')
+def enter_invoice():
+    return render_template('enter_invoice.html')    
+
+@app.route('/receive_data', methods=['POST'])
+def receive_data():
+    table_data = []
+    for value in request.form.items():
+        table_data.append(value)
+    print(table_data)  
+
+    return "Data received successfully"
 if __name__ == '__main__':
     app.run(debug=True)
 
