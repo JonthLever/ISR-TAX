@@ -1,3 +1,8 @@
 {
-    "livePreview.defaultPreviewPath": "/templates/enter_bills.html"
+    "livePreview.defaultPreviewPath": "/templates/enter_bills.html",
+    "editor.inlineSuggest.enabled": false,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "javascript.suggest.names": true,
+    "javascript.preferences.jsxAttributeCompletionStyle": "none"
 }

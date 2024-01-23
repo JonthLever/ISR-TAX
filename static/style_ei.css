@@ -21,12 +21,15 @@ form {
     align-items: center;
     padding: 0px;
     background-image: url('invoice.jpg'); 
-    background-size:cover;
+    background-size:contain;
     background-position: center;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    width: 75%;
+    border-radius: 3px;
+    box-shadow: 0 0 15px #ff00d4;
+    width:80%;
     margin: auto;
+}
+.invoice-form:hover {
+    box-shadow: 0 0 20px #09b300;
 }
 
 table {
