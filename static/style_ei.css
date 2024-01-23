@@ -8,6 +8,14 @@ body {
     align-items: center;
     height: 100vh;
 }
+
+#datetoday{
+    width: 100px;
+    height: 160px;
+    position:relative;
+    top: 240px;
+    left: 1000px;   
+}
 form {
     /*display: flex;*/
     /*box-sizing:content-box;*/
@@ -52,22 +60,35 @@ th {
 }
 
 
-label {
+/*label {
     font-weight: bold;
     display: block;
     margin-bottom: 8px;
-    color: #555;
+    color: #000000;
+}*/
+#cost-name {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: #ff00b7;
+    position:relative;
+    top: 240px;
+    left: 55px
+    
 }
 
 input[type="text"],
 input[type="number"] {
-    width: calc(80% - 10px);
+    width: calc(100px - 10px);
     /*height:calc(100% - 1px);*/
-    padding: 20px;
-    margin: 2px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 2px;
+    margin: 0px;
     border-radius: 0px;
-    border: 1px solid #ccc;
-    transition: border-color 0.3s ease;
+    border:0px;
+    position:relative;
+    top: 71px;
+    left: 170px;
+    /*transition: border-color 0.1s ease;*/
 }
 button {
     margin-top: 10px;

@@ -1,4 +1,13 @@
 from flask import Flask, render_template, request
+from datetime import datetime
+
+def get_current_date():
+    current_date = datetime.today().date()
+    formatted_date = current_date.strftime("%Y-%m-%d")
+    return formatted_date
+
+# Example usage
+current_date = get_current_date()
 
 app = Flask(__name__,template_folder="templates")
 
@@ -39,7 +48,7 @@ def submit_invoice():
     
 @app.route('/enter_invoice')
 def enter_invoice():
-    return render_template('enter_invoice.html')    
+    return render_template('enter_invoice.html', datetoday=current_date)    
 
 @app.route('/receive_data', methods=['POST'])
 def receive_data():

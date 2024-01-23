@@ -7,10 +7,11 @@
 
 </head>
 <body>
+    <div id="date-today">Date: {{ datetoday }}</div>
     <button onclick="window.location.href='/home'">Go to Home Page</button>
 
     <form action="/submit_invoice" method="post" class="invoice-form">
-        <label for="costumer">costumer Name:</label>
+        <label for="costumer" id="cost-name">Costumer:</label>
         <input type="text" id="costumer" name="costumer" placeholder="Enter costumer name" required><br><br>
         <label for="Date">Date:</label>
         <input type="text" id="date" name="date" placeholder="Enter Invoices Date" required><br><br>
