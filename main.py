@@ -35,7 +35,7 @@ def submit_bill():
         return "Bill submitted successfully! Thank you."
     
     
-@app.route('/submit_invoice', methods=['POST'])
+""" @app.route('/submit_invoice', methods=['POST'])
 def submit_invoice():
     if request.method == 'POST':
         costumer = request.form['costumer']
@@ -44,7 +44,7 @@ def submit_invoice():
         
         #print(f"Customer: {costumer}, Amount: {amount}, Description: {description}")
 
-        return "Invoice submitted successfully! Thank you."
+        return "Invoice submitted successfully! Thank you." """
     
 @app.route('/enter_invoice')
 def enter_invoice():

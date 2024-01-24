@@ -10,9 +10,23 @@
     <div id="date-today">Date: {{ datetoday }}</div>
     <button onclick="window.location.href='/home'">Go to Home Page</button>
 
-    <form action="/submit_invoice" method="post" class="invoice-form">
+    <form class="invoice-form">
         <label for="costumer" id="cost-name">Costumer:</label>
-        <input type="text" id="costumer" name="costumer" placeholder="Enter costumer name" required><br><br>
+        <div class="search-bar">
+            <div class="options">
+
+            </div>
+        </div>
+        <div class="return-options">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <input type="text" id="costumer" name="costumer" placeholder="" required><br><br>
         <label for="Date">Date:</label>
         <input type="text" id="date" name="date" placeholder="Enter Invoices Date" required><br><br>
         <table id="myTable">
@@ -27,27 +41,28 @@
             </thead>
             <tbody>
                 <tr>
-                    <td><input type="text" name="data1_1" value=""></td>
-                    <td><input type="text" name="data1_2" value=""></td>
-                    <td><input type="text" name="data1_3" value=""></td>
-                    <td><input type="text" name="data1_4" value=""></td>
-                    <td><input type="text" name="data1_5" value=""></td>
+                    <td><input id="tabla" type="text" name="data1_1" value=""></td>
+                    <td><input id="tabla" type="text" name="data1_2" value=""></td>
+                    <td><input id="tabla" type="text" name="data1_3" value=""></td>
+                    <td><input id="tabla" type="text" name="data1_4" value=""></td>
+                    <td><input id="tabla" type="text" name="data1_5" value=""></td>
                 </tr>
             </tbody>
         </table>
-        <button onclick="addRow()">Add Row</button>
-        <input type="submit" value="Ready!">
-        <script>
-            function addRow() {
-                var table = document.getElementById("myTable").getElementsByTagName('tbody')[0];
-                var newRow = table.insertRow(table.rows.length);
-    
-                for (var i = 0; i < 5; i++) {
-                    var cell = newRow.insertCell(i);
-                    cell.innerHTML = "<input type='text' name='data" + (table.rows.length) + "_" + (i + 1) + "' value=''>";
-                }
-            }
-        </script>
+
     </form>
+    <button id="addr" onclick="addRow()" >Add Row</button>
+    <!--<input type="submit" value="Ready!">-->
+    <script>
+        function addRow() {
+            var table = document.getElementById("myTable").getElementsByTagName('tbody')[0];
+            var newRow = table.insertRow(table.rows.length);
+
+            for (var i = 0; i < 5; i++) {
+                var cell = newRow.insertCell(i);
+                cell.innerHTML = "<input type='text' name='data" + (table.rows.length) + "_" + (i + 1) + "' value=''>";
+            }
+        }
+    </script>
 </body>
 </html>
