@@ -1,20 +1,30 @@
 body{
-    background-color: black;
+    background-color:rgb(4, 1, 27)
 }
 
 #main{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial, sans-serif;
     line-height:normal;
 }
 #main-title{
+    size: 150px;
     margin: 1px;
     padding: 0%;
-    font-size: 150px;
+    font-size:75px;
     color:azure;
+
+}
+#main-title:hover{
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
 }
 #main-desc{
     margin: 1px;
     padding: 0%;
-    font-size: 65px;
+    font-size: 75px;
     color:azure; 
+    font-style:italic;
 }
